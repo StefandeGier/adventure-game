@@ -1,14 +1,27 @@
 body {
-	background-color: silver;
+	background-image: url("../ijmain.jpg"); 
+	background-size: 105%;
 	font-family: sans-serif;
+	background-color: blue;
+
 }
 
 #level_title {
 	font-size: 18px;
-	color: black;		
+	color: white;		
 	font-weight: bold;
 }
 
-#level_image {
-	height: 500px;
+#plane {
+	
+
 }
+
+.level_image{
+	
+}
+
+#option1{
+
+}
+
