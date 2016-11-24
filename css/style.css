@@ -32,3 +32,12 @@ body {
 
 }
 
+#touw{
+	background-image: url("../touw.png");
+	background-color: brown;
+	position: absolute;
+	width: 260px;
+	height: 190px;
+    left: 400px;
+	top: 400px;
+}
