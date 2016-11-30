@@ -35,6 +35,7 @@ function GAMEOVER(){
 	document.getElementById('start').style.display = "none"
 	document.getElementById('start').style.display = "none"
 document.getElementById('tekst').innerHTML = "";
+document.getElementById('music').style.display = 'none';
 }
 
 function opnieuw(){
@@ -597,16 +598,16 @@ var opt3 = document.getElementById('option3');
 }
 function level21() {
     
-	console.log("Levelmenu2")
+	console.log("Levelmenu21")
 	document.getElementById('option1').style.display = "none"
 	document.getElementById('option2').style.display = "inline"
 	document.getElementById('option3').style.display = "none"
 	document.getElementById('opnieuw').style.display = "none"
     document.getElementById('touw').style.display = "none"
     document.getElementById('zak').style.display = "none"
-document.getElementById('tekst').innerHTML = "";
+document.getElementById('tekst').innerHTML = "Het is je gelukt! De Mayas dachten dat je gesneufeld was en gingen er vandoor!";
 	document.getElementById('level_title').innerHTML = ''
-	document.body.style.backgroundImage = "url('leavingjetksi.jpg')"
+	document.body.style.backgroundImage = "url('leave.jpg')"
 
 var opt1 = document.getElementById('option1');
 	opt1.innerHTML = 'Springen';

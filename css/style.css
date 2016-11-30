@@ -45,7 +45,7 @@ article {
 	width: 330px;
 	height:145px;
     left: 830px;
-	top: 680px;
+	top: 780px;
 }
 
 #option1{
@@ -57,7 +57,10 @@ background-color: transparent;
 	position: absolute;
     right: 15px;
 	top: 590px;
-
+	border:solid;
+	border-size:3px;
+	border-color: black;
+font-family: 'Yatra One', cursive;
 
 
 }
@@ -71,6 +74,7 @@ background-color: transparent;
 	width: 200px;
 	right: 15px;
 	top: 450px;
+	font-family: 'Yatra One', cursive;
 }
 
 #option3{
@@ -82,6 +86,7 @@ background-color: transparent;
 	width: 200px;
 	right: 15px;
 	top: 300px;
+	font-family: 'Yatra One', cursive;
 }
 
 #opnieuw{
