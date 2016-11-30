@@ -1,11 +1,25 @@
 body {
 	background-image: url("../ijmain.jpg"); 
 	background-size: 105%;
-	font-family: sans-serif;
+	font-family: 'Yatra One', cursive;
 	background-color: black;
 	background-repeat: no-repeat;
+	
 
 }
+
+article {
+	color: white;
+	font-size: 25px;
+	margin-left: 1150px;
+	margin-top: 70px;
+
+	width: 350px;
+	background-color: black;
+	
+	
+}
+
 
 #level_title {
 	font-size: 18px;
@@ -13,20 +27,72 @@ body {
 	font-weight: bold;
 }
 
+#endtekst{
+	color:white;
+	font-size: 70px;
+	font-weight: bold;
+	position: absolute;
+	left: 460px;
+	top:350px;
+}
 
-
-
+#start{
+	background-image: url("../start.png");
+	width: 600px;
+	background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	width: 330px;
+	height:145px;
+    left: 830px;
+	top: 680px;
+}
 
 #option1{
+background-image: url(../plank.jpg);
+background-color: transparent;
+	border-color: transparent;
+	height: 100px;
+	width: 200px;
+	position: absolute;
+    right: 15px;
+	top: 590px;
+
+
 
 }
 
 #option2{
-
+background-image: url(../plank.jpg);
+background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	right: 15px;
+	top: 450px;
 }
 
 #option3{
+background-image: url(../plank.jpg);
+background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	right: 15px;
+	top: 300px;
+}
 
+#opnieuw{
+	background-image: url(../again.png); 
+	background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	width:403px;
+	height: 160px;
+	left: 550px;
+	top:25px;
 }
 
 #gameover{
@@ -34,11 +100,25 @@ body {
 }
 
 #touw{
-	background-image: url("../touw.png");
-	background-color: brown;
+	background-image: url("../touw2.png");
+	background-color: transparent;
+	border-color: transparent;
 	position: absolute;
 	width: 260px;
 	height: 190px;
     left: 400px;
 	top: 400px;
+}
+
+#zak{
+	background-image: url("../zakje3.png");
+	background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	width: 270px;
+	height: 330px;
+    left: 270px;
+	top: 400px;
+   
+
 }
